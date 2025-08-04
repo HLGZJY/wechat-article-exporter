@@ -2,16 +2,8 @@
   <img src="./assets/logo.svg" alt="Logo">
 </p>
 
-# wechat-article-exporter
-
-![GitHub stars]
-![GitHub forks]
-![GitHub License]
-
-
 一个在线的微信公众号文章批量下载工具，支持下载阅读量与评论数据，无需搭建任何环境，HTML 格式可100%还原文章样式，支持私有化部署，可在 Windows/macOS/Linux 系统上使用。
 
-交流群(QQ): `991482155`
 
 ## 文档
 
@@ -28,26 +20,11 @@
 - [x] 支持合集下载
 - [x] 支持图片分享消息
 - [x] 支持视频分享消息
-- [x] 支持导出评论、评论回复、阅读量、转发量等数据 (需要抓包获取 credentials 信息，[查看操作步骤](docs/credentials.md))
-- [ ] 支持订阅机制，根据指定规则自动下载文章
-- [ ] 开放 API 接口
-
 
 ## :heart: 感谢
 
 - 感谢 [Deno Deploy]、[Cloudflare Workers] 提供免费托管服务
 - 感谢 [WeChat_Article] 项目提供原理思路
-
-
-## :coffee: 支持
-
-如果你觉得本项目帮助到了你，请给作者一个免费的 Star，感谢你的支持！
-
-
-
-## 关于后续更新计划
-
-为了项目能够长期健康的发展，后续会推出一些付费服务，具体可查看 issue 中的 [pro计划](https://github.com/wechat-article/wechat-article-exporter/labels/pro%E8%AE%A1%E5%88%92) 标签
 
 
 ## :bulb: 原理
